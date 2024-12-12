@@ -3,16 +3,16 @@
 
 ## Outputting Text in R
 
-To output text in R, you can use single or double quotes:  
+    To output text in R, you can use single or double quotes:  
 
 ```R
 "Hello World!"
 'Hello World!''
 ```
 
-## Outputting Numbers in R
+# Outputting Numbers in R
 
-## To output numbers, simply type the number without quotes
+    To output numbers, simply type the number without quotes
 
 ```R
 5
@@ -21,8 +21,7 @@ To output text in R, you can use single or double quotes:
 
 
 ## Performing Simple Calculations
-
-## You can perform simple calculations by typing expressions directly in R
+    You can perform simple calculations by typing expressions directly in R
 
 ```R
 5 + 8
@@ -32,9 +31,7 @@ Output:
 
 
 ## Printing Output in R
-
-
-## Unlike many other programming languages, R can output code without explicitly using a print function
+    Unlike many other programming languages, R can output code without explicitly using a print function
 
 ```R
 Copy code
@@ -44,9 +41,7 @@ Output:
 ```
 
 ## Using the print() Function
-
-
-## R also provides a print() function for output. This function can be useful, especially if you're familiar with other programming languages like Python that often rely on a print() function**
+    R also provides a print() function for output. This function can be useful, especially if you're familiar with other programming languages like Python that often rely on a print() function**
 
 Example:
 
@@ -58,9 +53,7 @@ Output:
 ```
 
 ## When to Use print()
-
-
-## There are specific cases where the print() function is required, such as inside loops. For instance, when iterating through a sequence with a for loop
+    There are specific cases where the print() function is required, such as inside loops. For instance, when iterating through a sequence with a for loop
 
 ```R
 Copy code
@@ -90,11 +83,11 @@ This example uses a comment before a line of code:
 
 ## This example uses a comment at the end of a line of code:
 
-"Hello World!" # This is a comment
+```R"Hello World!" # This is a comment``
 
 
 ## Multiline Comments
-Unlike other programming languages, such as Java, there are no syntax in R for multiline comments. However, we can just insert a # for each line to create multiline comments:
+    Unlike other programming languages, such as Java, there are no syntax in R for multiline comments. However, we can just insert a # for each line to create multiline comments:
 
 ```R
 # written in
