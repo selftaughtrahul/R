@@ -4,13 +4,13 @@ R is a dynamically typed language, meaning you don't need to declare a variable'
 
 Example:
 
-Code snippet
-
 ## Creating numeric, character, and logical variables
-
+```R
 x <- 10  # Numeric
 y <- "Hello, world!"  # Character
 z <- TRUE  # Logical
+
+```
 Concatenating Elements
 To combine strings or variables into a single string, use the paste() function. It takes multiple arguments and concatenates them, separating them with a specified separator.
 
