@@ -79,11 +79,16 @@ Output:
 
 This example uses a comment before a line of code:
 # This is a comment
-```R "Hello World!"```
+
+```R
+ # "Hello World!"
+```
 
 ## This example uses a comment at the end of a line of code:
 
-```R"Hello World!" # This is a comment``
+```R
+"Hello World!" # This is a comment
+```
 
 
 ## Multiline Comments
