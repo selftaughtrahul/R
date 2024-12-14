@@ -166,3 +166,4 @@ data_frame4 <- data.frame(
 
 combined_df2 <- cbind(data_frame3, data_frame4)
 combined_df2
+```
